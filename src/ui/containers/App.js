@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Route, Routes,
 } from 'react-router-dom';
@@ -9,7 +10,6 @@ import { history } from '../../engine/init/store';
 import Layout from './Layout';
 
 function App() {
-    const test = '1';
   return (
     <Router history={history}>
       <Routes>

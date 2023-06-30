@@ -1,6 +1,6 @@
-// Parts
+import React from 'react';
 import Main from '../../ui/pages/Main';
-import Hotels from '../../ui/pages/Hotels';
+import Hotels from '../../ui/pages/Hotels/index';
 import About from '../../ui/pages/About';
 import { links } from './links';
 

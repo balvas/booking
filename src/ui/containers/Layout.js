@@ -1,4 +1,6 @@
 // Core
+import React from 'react';
+
 import { Provider } from 'react-redux';
 import { Outlet } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
